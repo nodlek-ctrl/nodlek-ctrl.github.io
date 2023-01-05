@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+remote_theme: b2a3e8/jekyll-theme-console
 plugins:
   - jekyll-feed
 
@@ -53,3 +53,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - index.md
+  - about.md
+
+style: dark # dark (default), light or hacker
+listen_for_clients_preferred_style: true # false (default) or true
+
+footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
+
+google_analytics: G-T660LF4EDT
